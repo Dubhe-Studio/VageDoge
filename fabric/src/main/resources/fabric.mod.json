@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "VageDoge",
+  "version": "${version}",
+  "name": "VageDoge",
+  "description": "A VageDoge Mod",
+  "authors": [
+    "DubheStudio"
+  ],
+  "contact": {
+    "website": "https://github.com/Dubhe-Studio/VageDoge",
+    "repo": "https://github.com/Dubhe-Studio/VageDoge",
+    "issues": "https://github.com/Dubhe-Studio/VageDoge/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.dubhe.VageDoge.fabric.VageDogeFabric"
+    ]
+  },
+  "mixins": [
+    "VageDoge.mixins.json",
+    "VageDoge-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.18.2"
+  }
+}
